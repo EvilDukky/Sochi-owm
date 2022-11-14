@@ -1,0 +1,18 @@
+{
+  "owm": [
+    {
+      "lat": 43.659308,
+      "lon": 40.251958,
+      "appid": "ea890ca033123d2c6585862b787cfe89"
+    }
+  ],
+  "postgres": [
+    {
+      "host": "localhost",
+      "user": "postgres",
+      "password": "11111",
+      "database": "weather",
+      "port": 5433
+    }
+  ]
+}
