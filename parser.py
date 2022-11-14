@@ -155,7 +155,7 @@ def weather():
             # подключаемся к таблице и заполняем ее данными которые получили
             cur = connection.cursor()
             cur.execute(
-                '''INSERT INTO owm_python_parser
+                '''INSERT INTO sochi_openweather
                 (coord_lat,coord_lon,unix_time,temp,temp_feels,
                 pressure,pressure_sea,pressure_grnd,humidity,
                 visibility,wind_speed,wind_gust,wind_deg,wind_direction,snow_1h,rain_1h,
